@@ -1,4 +1,3 @@
-
 package com.xxxx.server.pojo;
 
 import io.swagger.annotations.Api;
@@ -18,10 +17,10 @@ import lombok.experimental.Accessors;
 @Api(value = "AdminLogin对象")
 public class AdminLogin {
 
-    @ApiModelProperty(value = "用户名",required = true)
+    @ApiModelProperty(value = "用户名", required = true)
     private String username;
-    @ApiModelProperty(value = "密码",required = true)
+    @ApiModelProperty(value = "密码", required = true)
     private String password;
-    @ApiModelProperty(value = "验证码",required = true)
+    @ApiModelProperty(value = "验证码", required = true)
     private String code;
 }

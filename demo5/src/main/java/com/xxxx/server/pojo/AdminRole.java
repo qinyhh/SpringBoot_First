@@ -1,4 +1,3 @@
-
 package com.xxxx.server.pojo;
 
 import com.baomidou.mybatisplus.annotation.IdType;
@@ -15,7 +14,7 @@ import java.io.Serializable;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @TableName("t_admin_role")
-@ApiModel(value="AdminRole对象", description="")
+@ApiModel(value = "AdminRole对象", description = "AdminRole对象")
 public class AdminRole implements Serializable {
 
     private static final long serialVersionUID = 1L;

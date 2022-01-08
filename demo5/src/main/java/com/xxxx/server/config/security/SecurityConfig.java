@@ -1,4 +1,3 @@
-
 package com.xxxx.server.config.security;
 
 import com.xxxx.server.config.jwt.JwtAuthenticationTokenFilter;
@@ -101,10 +100,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     public UserDetailsService userDetailsService() {
         return username -> {
             Admin admin = adminService.getAdminByUserName(username);
-            if (admin != null) {
+            if (admin != null)
 
                 return admin;
-            }
+
             return null;
         };
     }
